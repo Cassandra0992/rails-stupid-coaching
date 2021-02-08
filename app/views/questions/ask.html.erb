@@ -1,0 +1,12 @@
+<div class="container">
+
+  <h1>Question?</h1>
+  <P>Ask your coach something</P>
+
+  <form class="form-inline" action="/answer" method="get">
+    <div class="input-group">
+      <input class="form-control" type="text" name="question" placeholder="What is your question?" value="<%= params[:question] %>">
+      <input class="btn btn-primary" type="submit" value= "Ask">
+    </div>
+  </form>
+</div>
